@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/scheme.css" />
+    <title>Halo Website</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <header>
+        <nav>
+          <div class="mobile">
+            <div class="header">
+              <button id="bmenu">
+                <span class="material-icons">menu</span>
+              </button>
+              <a href="#">
+                <img src="./src/img/logo.png" width="110" alt="Microsoft" />
+              </a>
+
+              <div>
+                <a href="#"
+                  ><span class="material-icons">shopping_cart</span></a
+                >
+                <a href="#"
+                  ><span class="material-icons">account_circle</span></a
+                >
+              </div>
+            </div>
+
+            <div class="links">
+              <a href="#">Game Pass</a>
+              <a href="#">Games</a>
+              <a href="#">Devices</a>
+              <a href="#">Cloud Gaming</a>
+              <a href="#">Cummunity</a>
+              <a href="#">Support</a>
+              <a href="#">My Xbox</a>
+              <a href="#">All Microsoft</a>
+              <a href="#">Search</a>
+            </div>
+          </div>
+          <!-- end menu mobile -->
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./src/img/logo.png" width="80" alt="Microsoft" />
+              </a>
+            </li>
+            <li><a href="#" class="link">Game Pass</a></li>
+            <li><a href="#" class="link">Games</a></li>
+            <li><a href="#" class="link link-hide">Devices</a></li>
+            <li><a href="#" class="link link-hide">Cloud Gaming</a></li>
+            <li><a href="#" class="link link-hide">Comunity</a></li>
+            <li><a href="#" class="link link-hide">Support</a></li>
+            <li><a href="#" class="link link-hide">My Xbox</a></li>
+            <li class="more">
+              <a href="#" class="link" id="bmore">
+                More
+                <span class="material-icons"> expand_more </span></a
+              >
+              <div class="menu">
+                <a href="#">Devices</a>
+                <a href="#">Cloud Gaming</a>
+                <a href="#">Comunity</a>
+                <a href="#">Support</a>
+                <a href="#">My Xbox</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul>
+            <li><a href="#" class="link">Search</a></li>
+            <li><a href="#" class="link">Cart</a></li>
+            <li><a href="#" class="link">Sign In</a></li>
+          </ul>
+          <!-- end menu -->
+        </nav>
+      </header>
+
+      <section id="banner">
+        <h2>Halo Infinite</h2>
+        <p>
+          <a href="#" class="green-button">
+            Get it Now <span class="material-icons"> navigate_next </span>
+          </a>
+        </p>
+        <p>Available now with Xbox Game Pass</p>
+        <p>
+          <a href="#" class="green-link"
+            >JOIN NOW <span class="material-icons"> navigate_next </span></a
+          >
+        </p>
+      </section>
+
+      <section id="videos">
+        <h2>BECOME</h2>
+
+        <p class="w-75">
+          The Banished have defeated UNSC forces and taken control of the
+          mysterious Zeta Halo, threatening the survival of humankind. When all
+          hope is lost and humanity’s fate hangs in the balance, the Master
+          Chief returns to confront the most ruthless foe he’s ever faced.
+          Here’s a fresh look at the Halo Infinite campaign that introduces
+          players to true Spartan freedom in the biggest, most wide open and
+          adventure-filled Halo experience yet, launching on December 8 2021.
+        </p>
+
+        <h3>Trailers and Gameplay</h3>
+
+        <div id="slider">
+          <div id="controls">
+            <button id="prev">
+              <span class="material-icons"> navigate_before </span>
+            </button>
+            <button id="next">
+              <span class="material-icons"> navigate_next </span>
+            </button>
+          </div>
+
+          <div id="current"></div>
+
+          <div id="videos-container"></div>
+        </div>
+      </section>
+
+      <section id="multi-player">
+        <div class="info">
+          <h2>LEGENDARY MULTIPLAYER</h2>
+          <p>
+            Halo Infinite’s next multiplayer update has arrived. Season 4:
+            Infection offers an all-new 100 tier Battle Pass, new maps, new
+            equipment items and the return of the fan-favorite Infection game
+            mode.
+          </p>
+        </div>
+      </section>
+
+      <section id="get-the-game">
+        <h2>Get the game</h2>
+        <div class="item-store">
+          <div class="left">
+            <img src="./src/img/game.png" alt="Game" />
+          </div>
+          <div class="right">
+            <div class="info-product">
+              <h3>Halo Infinite (Campaign)</h3>
+              <h4>Inclued with Xbox Game Pass</h4>
+              <p>
+                When all hope is lost and humanity’s fate hangs in the balance,
+                the Master Chief is ready to confront the most ruthless foe he’s
+                ever faced. Step inside the armor of humanity’s greatest hero to
+                experience an epic adventure and explore the massive scale of
+                the Halo ring. To experience the campaign, purchase Halo
+                Infinite (Campaign).
+              </p>
+
+              <a href="#" class="green-button">
+                <img
+                  src="./src/icon/xbox-gamepass.png"
+                  width="30px"
+                  height="30px"
+                  alt="Game Pass"
+                />GET GAME PASS</a
+              >
+              <p id="or">- OR -</p>
+              <p>
+                <a href="#" class="icon-buy">
+                  <img
+                    src="./src/icon/buy.png"
+                    width="20px"
+                    height="20px"
+                    alt="Buy"
+                  />BUY $59.99+
+                </a>
+                <a href="#" class="icon-buy">
+                  <img
+                    src="./src/icon/cart.png"
+                    width="20px"
+                    height="20px"
+                    alt="Cart"
+                  />
+                </a>
+                <a href="#" class="icon-buy">
+                  <img
+                    src="./src/icon/more.png"
+                    width="20px"
+                    height="20px"
+                    alt="More"
+                /></a>
+              </p>
+              <p>
+                <a href="#" class="icon">
+                  <img
+                    src="./src/icon/xbox-one-console.png"
+                    width="30px"
+                    height="30px"
+                    alt="Xbox"
+                  />Xbox</a
+                >
+                <a href="#" class="icon">
+                  <img
+                    src="./src/icon/windows-logo.png"
+                    width="30px"
+                    height="30px"
+                    alt="Windows"
+                  />Windows 10 PC</a
+                >
+                <a href="#" class="icon">
+                  <img
+                    src="./src/icon/steam.png"
+                    width="30px"
+                    height="30px"
+                    alt="Steam"
+                  />Steam</a
+                >
+              </p>
+              <!-- <p>
+                <button class="green-button">BUY NOW</button>
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer></footer>
+    </div>
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
